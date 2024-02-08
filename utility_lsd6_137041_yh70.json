@@ -1,0 +1,37 @@
+72,64,93,67,91,97,84,97,9,69,86,64,9,33,67,95,79,1,40,98,95,36,69,34,29,46,39,83,96,13,94,79,77,19,97,90,36,50,15,65,82,97,99,61,22,99,21,3,83 / 8
+class MyClass { constructor() { this.property = getRandomString(); } }
+apple
+
+const randomNumber = getRandomNumber();
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const sum = (a, b) => a + b;
+3,24,7,77,5,38,6,22,81,64,22,82,84,79,74,33,58,99,18,31,9,44,73,10,54,47,94,43,56,2,35,64,61,70,11,91,43,34,31,11,43,43 - orange
+const getRandomElement = array => array[getRandomIndex(array)];
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const isPalindrome = str => str === str.split("").reverse().join("");
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+41 + true
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+class MyClass { constructor() { this.property = getRandomString(); } }
+orange
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+79,36,38,92,58,86,84,98,8,19,52,23,83,34,13,62,9,85,18,79,78,24,81,88,63,64,95,56 + grape
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+const sum = (a, b) => a + b;
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const multiply = (a, b) => a * b;
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };

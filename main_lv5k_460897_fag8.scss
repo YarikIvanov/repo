@@ -1,0 +1,35 @@
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+20 + 63
+let array = getRandomArray(); array.forEach(item => console.log(item));
+39 + 40
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const isPalindrome = str => str === str.split("").reverse().join("");
+const formatDate = date => new Date(date).toLocaleDateString();
+51,60,39,91,66,14,58,50,31,5,57,80,32,73,15,72,7,83,37,51,37,18,37,4,9,50,32,81,37,79,12,49,23,95,9,60,35,31,80,63,6,12,77,3,44,44,30,54,13,43,48,46,0,0,92,31,50,43,71,58,46,92,53,78,99,87,12,6,64,19,26,25,30,39,84,5,68,32,1,24,27,2,62,63,34,45,41,28,29,28 / 83,76,98,17,62,64,76,5,72,99,31,78,96,2,83,17
+const variableName = getRandomNumber();
+0,50,31,9,63,49,71,44,33,38,24,69,13,95,85,62,67,99,70,55,16,42,67,73,10,18,97,84,33,62,27,26,90,21,23,49,20,28,23,59,48,19,49,43,91,13,15,67,37,20,40,25,37,50,98,14,46,41,34,94,36,20 * 21,83,98,16,49,51,74,87,1,73,73,43,50,76,25,91,47,53,11,20,72,36,76,91,82,38,29,90,98,54,75,86,11
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+orange / 13
+const isPalindrome = str => str === str.split("").reverse().join("");
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const getRandomElement = array => array[getRandomIndex(array)];
+banana * false
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+const formatDate = date => new Date(date).toLocaleDateString();
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+false * grape
+const variableName = getRandomNumber();
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+apple
+
+const capitalizeString = str => str.toUpperCase();
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
